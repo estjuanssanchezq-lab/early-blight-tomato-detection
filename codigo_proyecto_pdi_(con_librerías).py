@@ -146,8 +146,8 @@ clase_early, area_early = clasificar_imagen(mask_early)
 clase_healthy, area_healthy = clasificar_imagen(mask_healthy)
 
 print("\nResultados:")
-print("Imagen 1 (Early):", clase_early, "| Área:", round(area_early,4))
-print("Imagen 2 (Healthy):", clase_healthy, "| Área:", round(area_healthy,4))
+print("Imagen 1 :", clase_early, "| Área:", round(area_early,4))
+print("Imagen 2 :", clase_healthy, "| Área:", round(area_healthy,4))
 
 # 11. VISUALIZACIÓN
 
@@ -177,15 +177,3 @@ plt.axis("off")
 
 plt.tight_layout()
 plt.show()
-
-umbral = 0.15
-
-if area_early > umbral:
-    print("Early Blight clasificada como: ENFERMA")
-else:
-    print("Early Blight clasificada como: SANA")
-
-if area_healthy > umbral:
-    print("Healthy clasificada como: ENFERMA")
-else:
-    print("Healthy clasificada como: SANA")
