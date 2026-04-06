@@ -12,8 +12,9 @@ Clases utilizadas:
 
 # Instrucciones
 
-1. Descargar el dataset desde el enlace proporcionado
-   https://drive.google.com/file/d/1aDYutlSN0wBKtom55PBkMgTNkcmtywfT/view?usp=sharing
-3. Subir el archivo .zip
-4. Colocar la carpeta en la ruta /content/ (en Google Colab)
-5. Ejecutar el código
+1. Descargar el archivo .py
+2. Descargar el dataset desde el enlace proporcionado
+[https://drive.google.com/file/d/1aDYutlSN0wBKtom55PBkMgTNkcmtywfT/view?usp=sharing](https://drive.google.com/drive/folders/1NGdW7Uyv4cS6JNnD0CUw9RpLVkHlPQDa?usp=sharing)   
+4. Subir el archivo .zip
+5. Colocar la carpeta en la ruta /content/ (en Google Colab)
+6. Ejecutar el código
